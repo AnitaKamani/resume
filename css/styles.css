@@ -4219,7 +4219,7 @@ button.btn--pill {
  *
  * ------------------------------------------------------------------- */
 .s-portfolio {
-	min-height: 90vh;
+	min-height: 100vh;
 	background-color: var(--color-gray-1);
 	padding-top: calc(6 * var(--space));
 	padding-bottom: var(--vspace-5);
