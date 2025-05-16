@@ -54,7 +54,7 @@ function createShootingStar() {
 function updateStars() {
     stars.forEach(star => {
         // Twinkling effect
-        star.alpha += random(-0.08, 0.08);
+        star.alpha += random(-0.04, 0.04);
         if (star.alpha < 0.2) {
             // Move the star to a new random position when it fades out
             star.x = random(0, canvas.width);
